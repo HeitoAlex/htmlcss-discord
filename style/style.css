@@ -13,9 +13,16 @@ body{
 .head-nav{
     background-color: #255EE9;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+}
+
+.logo-div{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul{
@@ -31,7 +38,6 @@ ul{
 
 li{
     margin: 0 1rem;
-    font-size: 12px;
 }
 
 button{
@@ -61,11 +67,17 @@ button{
 
 h1{
     font-size: 45px;
-    
 }
 
 p{
-    padding: 2rem 0 1rem;
+    padding: 3rem 0 1rem;
+    font-size: 18px;
+}
+
+p.font-white{
+    padding: 2rem 0 1 rem;
+    text-align: center;
+    font-size: 18px;
 }
 
 #download{
@@ -73,9 +85,6 @@ p{
 }
 
 .space-division{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 4rem;
 }
 
@@ -87,10 +96,7 @@ p{
 }
 
 .span-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .centered{
@@ -120,21 +126,30 @@ h3{
     background-size: contain;
 }
 
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    background-size: cover;
+}
+
+.wavereverse{
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    background-size: cover;
+    rotate: 180deg;
+}
+
 .foot-div{
     width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 4rem;
+    padding: 4rem 0;
 }
 
 .foot-nav{
     display: flex;
     justify-content: space-around;
-}
-
-.font-nav{
-    font-size: 12px;
 }
 
 .foot-span{
@@ -150,10 +165,11 @@ h4{
 
 #flag{
     width: 20px;
+    margin-right: .5rem;
 }
 
 #lang-site{
-    font-size: 11px;
+    font-size: 15px;
     padding: 1rem 0;
 }
 
@@ -162,7 +178,7 @@ i{
 }
 
 hr{
-    max-width: 900px;
+    max-width: 1000px;
     color: #6A7FC7;
     margin: 1rem auto;
 }
@@ -183,7 +199,11 @@ hr{
     color: white;
 }
 
-.bg-color-grey{
+.bg-color-darkgrey{
     background-color: #23272A;
     color: white;
+}
+
+.bg-color-lightgrey{
+    background-color: #F6F6F6;
 }
