@@ -19,7 +19,7 @@ body{
 
 .logo-div{
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,10 +34,11 @@ ul{
 #header-ul{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
 }
 
 li{
-    margin: 0 1rem;
+    margin: 0 1rem 1rem 0;
 }
 
 button{
@@ -75,7 +76,7 @@ p{
 }
 
 p.font-white{
-    padding: 2rem 0 1 rem;
+    padding: 1.8rem 0 1rem;
     text-align: center;
     font-size: 18px;
 }
