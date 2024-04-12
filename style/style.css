@@ -52,18 +52,14 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
-    display: flex;
-    justify-content: center;
 }
 
 #intro{
     width: 700px;
     height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 0 auto;
 }
 
 h1{
